@@ -107,8 +107,8 @@ def do_scraping(search_keyword):
         driver = set_driver("chromedriver", False)
 
     # Webサイトを開く
-    driver.get(f"{url}/list/kw{search_keyword}/?jobsearchType=14&searchType=18")
     driver.set_window_size(700,800)
+    driver.get(f"{url}/list/kw{search_keyword}/?jobsearchType=14&searchType=18")
     time.sleep(5)
 
     # ポップアップを閉じる
