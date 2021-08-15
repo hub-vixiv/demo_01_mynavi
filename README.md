@@ -4,3 +4,4 @@
 eelにてgui作成
 ログをguiに出力
 csv出力－－ファイル名に検索ワード
+classless css 使用
