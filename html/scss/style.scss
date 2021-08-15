@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+h2{
+  width: 300px;
+  margin: 20px auto;
+  background-color:#48c774;
+  border-radius: 6px;
+  color: #fff;
+  vertical-align: center;
+}
+
+main{
+  width: 380px;
+  margin: 0 auto;
+  // padding: 10px;
+
+  label, #test_keyword, #btn_search, #area_logs{
+    margin-bottom: 10px;
+  }
+  
+  #text_keyword{
+    display: inline;
+    margin-right: 10px;
+    width: 200px;
+  }
+}

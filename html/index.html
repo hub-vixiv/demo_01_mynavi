@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>マイナビ検索ツール</title>
+  <!-- classless css 使うときは、restなくていい -->
+  <!-- <link rel="stylesheet" href="https;//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!-- classless css holidayとnewどちらかで -->
+  <link rel="stylesheet" href="./css/holiday_cutomized.css">
+  <!-- <link rel="stylesheet" href="./css/new.css"> -->
+  <script type="text/javascript" language="javascript" src="./js/script.js" defer></script>
+  <!-- EelのJSの読み込み -->
+  <script type="text/javascript" src="/eel.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h2 style="line-height: 2em;">マイナビ検索ツール</h2>
+  </header>
+  <main>
+    <label for="text_keyword">検索ワード</label>
+    <input type="text" id="text_keyword">
+    <button id="btn_search" onclick="btn_search_click();">検索</button>
+    <label for="area_logs">進捗状況</label>
+    <textarea id="area_logs" rows="10" readonly></textarea>
+    <button onclick="window.close();">閉じる</button>
+
+  </main>
+ 
+</body>
+</html>
